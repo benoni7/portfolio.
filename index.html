@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eyuel Endale Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="fade-in">Eyuel Endale</h1>
+            <p class="slide-up">Front-End Developer | UI/UX Designer | Digital Marketer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Eyuel Endale, a passionate Front-End Developer and UI/UX Designer based in Addis Ababa,
+                Ethiopia. I enjoy creating sleek and efficient websites, focusing on delivering seamless user
+                experiences. I also specialize in digital marketing, turning businesses into online powerhouses.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid" class="Front-End">
+                <div class="skills-grid">
+                    <div class="skill-card m">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card m">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card m">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="skill-card react">
+                    <i class="fab fa-react"></i>
+                    <h3>react</h3>
+                </div>
+                <div class="skill-card figma">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>UI/UX Design</h3>
+                </div>
+                <div class="skill-card digital">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>BENONI Gym Website</h3>
+                    <p>Developed a responsive and engaging website for BENONI Gym, featuring membership plans and a
+                        sleek design.</p>
+                    <a href="https://benoniworkout.wordpress.com" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Front-End</h3>
+                    <p>Created an intuitive shopping experience for an online retail platform, focusing on user-centric
+                        design principles.</p>
+                    <a href="https://benoni7.github.io/benonis-shop/index.html" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This portfolio website you're currently viewing, showcasing my skills and projects.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Gym shop figma design</h3>
+                    <p>user-friendly design with a responsive product grid and intuitive navigation for a seamless
+                        shopping experience.</p>
+                    <a href="https://www.figma.com/proto/lyr2IC6GjImVPMVQlpJW5i/Benoni's-gym?node-id=63-2&node-type=frame&t=8VXmvXgcswYViEqt-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5"
+                        class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Let's work together! Feel free to reach out for collaborations or inquiries.</p>
+            <div class="social-links">
+                <a href="mailto:endaleeyuel8@example.com"><i class="fas fa-envelope"></i> Email</a>
+                <a
+                    href="https://www.linkedin.com/in/eyuel-endale-4b8636327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Eyuel Endale. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #FAFAFA;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: blueviolet;
+        color: white;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        animation: fade-in 2s ease-in;
+    }
+
+    header p {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        animation: slide-up 1.5s ease-in;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 10px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #f39c12;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .skill-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 150px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .skill-card i {
+        font-size: 3rem;
+        color: #f39c12;
+    }
+
+    .projects .project-grid {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .project-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width: 100%;
+    }
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-link {
+        color: #f39c12;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .project-link:hover {
+        text-decoration: underline;
+    }
+
+    .contact .social-links {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .social-links a {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.2rem;
+        border: 2px solid #f39c12;
+        padding: 10px 15px;
+        border-radius: 50px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .social-links a:hover {
+        background-color: #f39c12;
+        color: white;
+    }
+
+    footer {
+        background-color: #282828;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-up {
+        from {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .m {
+        background-color: #f3f3f3;
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transition */
+        cursor: pointer;
+    }
+
+    .m:hover {
+        background-color: #e67e22;
+        /* Change background on hover */
+        color: white;
+        /* Change text color on hover */
+
+    }
+
+    .m:hover::after {
+        content: " certified  Udacity- Programming fundamentals 2024";
+        /* Text added on hover */
+        color: #fff;
+    }
+
+    .react {
+        background-color: #f3f3f3;
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transition */
+        cursor: pointer;
+    }
+
+    .react:hover {
+        background-color: #e67e22;
+        /* Change background on hover */
+        color: white;
+        /* Change text color on hover */
+
+    }
+
+    .react:hover::after {
+        content: " certified  alison- react native 2024";
+        /* Text added on hover */
+        color: #fff;
+    }
+
+    .figma {
+        background-color: #f3f3f3;
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transition */
+        cursor: pointer;
+    }
+
+    .figma:hover {
+        background-color: #e67e22;
+        /* Change background on hover */
+        color: white;
+        /* Change text color on hover */
+
+    }
+
+    .figma:hover::after {
+        content: " certified  alison- figma design";
+        /* Text added on hover */
+        color: #fff;
+    }
+
+    .digital {
+        background-color: #f3f3f3;
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Smooth transition */
+        cursor: pointer;
+    }
+
+    .digital:hover {
+        background-color: #e67e22;
+        /* Change background on hover */
+        color: white;
+        /* Change text color on hover */
+
+    }
+
+    .digital:hover::after {
+        content: " certified  uniathena- digital marketing 2024";
+        /* Text added on hover */
+        color: #fff;
+    }
+</style>
+
+</html>
